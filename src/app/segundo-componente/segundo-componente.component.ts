@@ -5,11 +5,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './segundo-componente.component.html',
   styleUrls: ['./segundo-componente.component.css']
 })
-export class SegundoComponenteComponent implements OnInit {
+export class SegundoComponenteComponent  {
+  nome = "João";
+  dataNascimento = "1995-01-01"
+  urlImagem = "/assets/download.jpg";
 
-  constructor() { }
+  mostrarDataNascimento() {
 
-  ngOnInit(): void {
+    alert(`A data de nascimento é: ${this.dataNascimento}`);
   }
 
-}
+  }
+
+

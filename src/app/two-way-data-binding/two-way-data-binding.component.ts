@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './two-way-data-binding.component.html',
   styleUrls: ['./two-way-data-binding.component.css']
 })
-export class TwoWayDataBindingComponent implements OnInit {
+export class TwoWayDataBindingComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+    nome = "";
+ 
 
 }
